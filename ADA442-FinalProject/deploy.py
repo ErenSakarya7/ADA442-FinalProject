@@ -4,7 +4,7 @@ import pickle
 import pandas as pd
 
 # loading the trained model
-model=pickle.load(open('bank_marketing_predictor2.sav','rb'))
+model=pickle.load(open('ADA442-FinalProject/bank_marketing_predictor2.sav','rb'))
 
 def prediction(features):
     prediction = model.predict(features)
